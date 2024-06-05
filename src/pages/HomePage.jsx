@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../redux/todoSlice";
 import { useNavigate } from "react-router-dom";
-import { addTodoToFirestore } from "../services/firebase.service";
 import { v4 as uuidv4 } from 'uuid';
+import { addTodoToFirestore } from "../services/firebase.service";
 
 
 const HomePage = () => {
